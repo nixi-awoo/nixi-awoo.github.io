@@ -9445,9 +9445,10 @@ table.contact {
 }
 /* line 49, ../scss/app.scss */
 table.contact tr td:first-child {
+  text-align: center;
   width: 38px;
 }
-/* line 52, ../scss/app.scss */
+/* line 53, ../scss/app.scss */
 table.contact td {
   word-wrap: break-word;
   /* All browsers since IE 5.5+ */
@@ -9456,112 +9457,112 @@ table.contact td {
   word-break: break-all;
 }
 
-/* line 61, ../scss/app.scss */
+/* line 62, ../scss/app.scss */
 .noborder {
   border: none;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .noborder-top {
   border-top: none;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .noborder-right {
   border-right: none;
 }
 
-/* line 64, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 .noborder-bottom {
   border-bottom: none;
 }
 
-/* line 65, ../scss/app.scss */
+/* line 66, ../scss/app.scss */
 .noborder-left {
   border-left: none;
 }
 
-/* line 67, ../scss/app.scss */
+/* line 68, ../scss/app.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 68, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
 .text-centre {
   text-align: center;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 71, ../scss/app.scss */
+/* line 72, ../scss/app.scss */
 .greentext {
   color: #43AC6A;
 }
 
-/* line 74, ../scss/app.scss */
+/* line 75, ../scss/app.scss */
 a {
   color: #28bd8b;
 }
 
-/* line 77, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 a:hover {
   color: #51daac;
 }
 
-/* line 83, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 img.round {
   -moz-border-radius: 100%;
   border-radius: 100%;
 }
 
-/* line 87, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 img.round-bordered {
   border: 1px solid #323232;
 }
 
-/* line 93, ../scss/app.scss */
-.header {
-  background: url("../img/header.jpg");
+/* line 94, ../scss/app.scss */
+#header {
+  background: url("../img/header.jpg") repeat;
 }
-/* line 96, ../scss/app.scss */
-.header h1 {
+/* line 97, ../scss/app.scss */
+#header h1 {
   color: #28bd8b;
   font-family: "Cookie";
   font-weight: bold;
   margin: 30px 0;
 }
 
-/* line 104, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 div.contain-to-grid {
   border-bottom: 5px solid #28bd8b;
 }
 
-/* line 111, ../scss/app.scss */
+/* line 112, ../scss/app.scss */
 .content {
   padding: 40px 0 15px 0;
 }
 
-/* line 114, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 #aboutme {
   background: #EEEEEE;
 }
 
-/* line 119, ../scss/app.scss */
+/* line 120, ../scss/app.scss */
 #projects .panel {
   background: #323232;
   border: none;
   padding: 10px;
   text-align: center;
 }
-/* line 125, ../scss/app.scss */
+/* line 126, ../scss/app.scss */
 #projects p {
   color: #FFFFFF;
 }
 
-/* line 129, ../scss/app.scss */
+/* line 130, ../scss/app.scss */
 #contact {
   background: #EEEEEE;
 }

@@ -47,6 +47,7 @@ table.contact {
   width: 100%;
 
   tr td:first-child {
+    text-align: center;
     width: 38px;
   }
   td {
@@ -90,8 +91,8 @@ img.round-bordered {
 
 // Elements
 
-.header { // Custom header wrapper
-  background: url('../img/header.jpg');
+#header { // Custom header wrapper
+  background: url('../img/header.jpg') repeat;
 
   h1 {
     color: $accent;
