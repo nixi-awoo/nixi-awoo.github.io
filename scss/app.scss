@@ -1,0 +1,121 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+// Custom classes
+
+// Fixes
+
+table.contact {
+  width: 100%;
+
+  tr td:first-child {
+    width: 38px;
+  }
+  td {
+    word-wrap: break-word; /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word; /* Renamed property in CSS3 draft spec */
+    word-break: break-all;
+  }
+}
+
+// Tools
+
+.centre { text-align: center; }
+
+.noborder { border: none; }
+.noborder-top { border-top: none; }
+.noborder-right { border-right: none; }
+.noborder-bottom { border-bottom: none; }
+.noborder-left { border-left: none; }
+
+.text-left { text-align: left; }
+.text-centre { text-align: center; }
+.text-right { text-align: right; }
+
+.greentext { color: $success-color }
+
+// Rules
+a {
+  color: scale-color($accent, $lightness: -25%);
+}
+a:hover {
+  color: scale-color($accent, $lightness: 0%);
+}
+
+// Images
+
+img.round {
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+img.round-bordered {
+  border: 1px solid $subtle;
+}
+
+// Elements
+
+.header { // Custom header wrapper
+  background: url('../img/header.jpg');
+
+  h1 {
+    color: $accent;
+    font-family: "Cookie";
+    font-weight: bold;
+    margin: 30px 0;
+  }
+}
+
+div.contain-to-grid { // The top-bar bottom border
+  border-bottom: 5px solid $accent;
+}
+
+
+
+  // Custom content elements
+  .content {
+    padding: 40px 0 15px 0;
+  }
+  #aboutme {
+    background: $body-bg;
+  }
+  #contact {
+    background: $body-bg;
+  }
