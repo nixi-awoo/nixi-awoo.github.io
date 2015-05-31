@@ -9545,11 +9545,6 @@ div.contain-to-grid {
   padding: 40px 0 15px 0;
 }
 
-/* line 115, ../scss/app.scss */
-#aboutme {
-  background: #EEEEEE;
-}
-
 /* line 120, ../scss/app.scss */
 #projects .panel {
   background: #323232;
@@ -9562,7 +9557,12 @@ div.contain-to-grid {
   color: #FFFFFF;
 }
 
-/* line 130, ../scss/app.scss */
-#contact {
-  background: #EEEEEE;
+/* line 134, ../scss/app.scss */
+#footer {
+  background: url("../img/header.jpg") repeat;
+  border-top: 5px solid #28bd8b;
+  color: #FFFFFF;
+  margin-top: 50px;
+  padding: 45px 0;
+  width: 100%;
 }

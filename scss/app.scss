@@ -113,7 +113,7 @@ div.contain-to-grid { // The top-bar bottom border
     padding: 40px 0 15px 0;
   }
   #aboutme {
-    background: $body-bg;
+    
   }
   #projects {
 
@@ -128,5 +128,14 @@ div.contain-to-grid { // The top-bar bottom border
     }
   }
   #contact {
-    background: $body-bg;
+    
   }
+
+#footer {
+  background: url('../img/header.jpg') repeat;
+  border-top: 5px solid $accent;
+  color: $white;
+  margin-top: 50px;
+  padding: 45px 0;
+  width: 100%;
+}
