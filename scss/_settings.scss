@@ -255,6 +255,7 @@ $h1-font-size: rem-calc(60);
 
 // A general <small> styling
 // $small-font-size: 60%;
+$small-font-size: 70%;
 // $small-font-color: scale-color($header-font-color, $lightness: 35%);
 
 // We use these to style paragraphs
@@ -1384,9 +1385,11 @@ $h1-font-size: rem-calc(60);
 // $include-html-tooltip-classes: $include-html-classes;
 
 // $has-tip-border-bottom: dotted 1px $iron;
+$has-tip-border-bottom: none;
 // $has-tip-font-weight: $font-weight-bold;
 // $has-tip-font-color: $oil;
 // $has-tip-border-bottom-hover: dotted 1px scale-color($primary-color, $lightness: -55%);
+$has-tip-border-bottom-hover: none;
 // $has-tip-font-color-hover: $primary-color;
 // $has-tip-cursor-type: help;
 
@@ -1403,6 +1406,7 @@ $h1-font-size: rem-calc(60);
 // $tooltip-radius: $global-radius;
 // $tooltip-rounded: $global-rounded;
 // $tooltip-pip-size: 5px;
+$tooltip-pip-size: 8px;
 // $tooltip-max-width: 300px;
 
 // 34. Top Bar

@@ -58,8 +58,6 @@ table.contact {
 
 // Tools
 
-.centre { text-align: center; }
-
 .noborder { border: none; }
 .noborder-top { border-top: none; }
 .noborder-right { border-right: none; }
@@ -74,10 +72,10 @@ table.contact {
 
 // Rules
 a {
-  color: scale-color($accent, $lightness: -25%);
+  color: scale-color($accent, $lightness: 0%);
 }
 a:hover {
-  color: scale-color($accent, $lightness: 0%);
+  color: scale-color($accent, $lightness: 25%);
 }
 
 // Images
@@ -115,6 +113,18 @@ div.contain-to-grid { // The top-bar bottom border
   }
   #aboutme {
     background: $body-bg;
+  }
+  #projects {
+
+    .panel {
+      background: $subtle;
+      border: none;
+      padding: 10px;
+      text-align: center;
+    }
+    p {
+      color: $white;
+    }
   }
   #contact {
     background: $body-bg;

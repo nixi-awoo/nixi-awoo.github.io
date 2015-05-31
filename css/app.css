@@ -6705,14 +6705,14 @@ table tr td {
 /* Tooltips */
 /* line 38, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip {
-  border-bottom: dotted 1px #CCCCCC;
+  border-bottom: none;
   color: #333333;
   cursor: help;
   font-weight: bold;
 }
 /* line 44, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #003f54;
+  border-bottom: none;
   color: #008CBA;
 }
 /* line 50, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
@@ -6738,19 +6738,19 @@ table tr td {
 /* line 68, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .tooltip > .nub {
   border-color: transparent transparent #333333 transparent;
-  border: solid 5px;
+  border: solid 8px;
   display: block;
   height: 0;
   pointer-events: none;
   position: absolute;
-  top: -10px;
+  top: -16px;
   width: 0;
-  left: 5px;
+  left: 8px;
 }
 /* line 79, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .tooltip > .nub.rtl {
   left: auto;
-  right: 5px;
+  right: 8px;
 }
 /* line 85, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .tooltip.radius {
@@ -6766,7 +6766,7 @@ table tr td {
 }
 /* line 95, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .tooltip.opened {
-  border-bottom: dotted 1px #003f54 !important;
+  border-bottom: none !important;
   color: #008CBA !important;
 }
 
@@ -6782,12 +6782,12 @@ table tr td {
   /* line 110, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip > .nub {
     border-color: transparent transparent #333333 transparent;
-    top: -10px;
+    top: -16px;
   }
   /* line 114, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip.tip-top > .nub {
     border-color: #333333 transparent transparent transparent;
-    bottom: -10px;
+    bottom: -16px;
     top: auto;
   }
   /* line 120, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
@@ -6798,15 +6798,15 @@ table tr td {
   .tooltip.tip-left > .nub {
     border-color: transparent transparent transparent #333333;
     left: auto;
-    margin-top: -5px;
-    right: -10px;
+    margin-top: -8px;
+    right: -16px;
     top: 50%;
   }
   /* line 130, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip.tip-right > .nub {
     border-color: transparent #333333 transparent transparent;
-    left: -10px;
-    margin-top: -5px;
+    left: -16px;
+    margin-top: -8px;
     right: auto;
     top: 50%;
   }
@@ -7910,7 +7910,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 262, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   color: #6f6f6f;
-  font-size: 60%;
+  font-size: 70%;
   line-height: 0;
 }
 
@@ -7979,7 +7979,7 @@ b {
 
 /* line 299, ../bower_components/foundation/scss/foundation/components/_type.scss */
 small {
-  font-size: 60%;
+  font-size: 70%;
   line-height: inherit;
 }
 
@@ -9457,81 +9457,76 @@ table.contact td {
 }
 
 /* line 61, ../scss/app.scss */
-.centre {
-  text-align: center;
-}
-
-/* line 63, ../scss/app.scss */
 .noborder {
   border: none;
 }
 
-/* line 64, ../scss/app.scss */
+/* line 62, ../scss/app.scss */
 .noborder-top {
   border-top: none;
 }
 
-/* line 65, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .noborder-right {
   border-right: none;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .noborder-bottom {
   border-bottom: none;
 }
 
-/* line 67, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 .noborder-left {
   border-left: none;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 67, ../scss/app.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 70, ../scss/app.scss */
+/* line 68, ../scss/app.scss */
 .text-centre {
   text-align: center;
 }
 
-/* line 71, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 73, ../scss/app.scss */
+/* line 71, ../scss/app.scss */
 .greentext {
   color: #43AC6A;
 }
 
-/* line 76, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 a {
-  color: #1e8e68;
-}
-
-/* line 79, ../scss/app.scss */
-a:hover {
   color: #28bd8b;
 }
 
-/* line 85, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
+a:hover {
+  color: #51daac;
+}
+
+/* line 83, ../scss/app.scss */
 img.round {
   -moz-border-radius: 100%;
   border-radius: 100%;
 }
 
-/* line 89, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 img.round-bordered {
   border: 1px solid #323232;
 }
 
-/* line 95, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 .header {
   background: url("../img/header.jpg");
 }
-/* line 98, ../scss/app.scss */
+/* line 96, ../scss/app.scss */
 .header h1 {
   color: #28bd8b;
   font-family: "Cookie";
@@ -9539,22 +9534,34 @@ img.round-bordered {
   margin: 30px 0;
 }
 
-/* line 106, ../scss/app.scss */
+/* line 104, ../scss/app.scss */
 div.contain-to-grid {
   border-bottom: 5px solid #28bd8b;
 }
 
-/* line 113, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 .content {
   padding: 40px 0 15px 0;
 }
 
-/* line 116, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 #aboutme {
   background: #EEEEEE;
 }
 
 /* line 119, ../scss/app.scss */
+#projects .panel {
+  background: #323232;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+/* line 125, ../scss/app.scss */
+#projects p {
+  color: #FFFFFF;
+}
+
+/* line 129, ../scss/app.scss */
 #contact {
   background: #EEEEEE;
 }
