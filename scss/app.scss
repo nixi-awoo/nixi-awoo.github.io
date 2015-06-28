@@ -43,20 +43,6 @@
 
 // Fixes
 
-table.contact {
-  width: 100%;
-
-  tr td:first-child {
-    text-align: center;
-    width: 38px;
-  }
-  td {
-    word-wrap: break-word; /* All browsers since IE 5.5+ */
-    overflow-wrap: break-word; /* Renamed property in CSS3 draft spec */
-    word-break: break-all;
-  }
-}
-
 // Tools
 
 .noborder { border: none; }
@@ -106,15 +92,15 @@ div.contain-to-grid { // The top-bar bottom border
   border-bottom: 5px solid $accent;
 }
 
-
-
   // Custom content elements
   .content {
     padding: 40px 0 15px 0;
   }
+
   #aboutme {
-    
+
   }
+
   #projects {
 
     .panel {
@@ -129,8 +115,26 @@ div.contain-to-grid { // The top-bar bottom border
       margin-top: 5px;
     }
   }
+
   #contact {
-    
+    table.contact {
+      width: 100%;
+
+      tr td:first-child {
+        text-align: center;
+        width: 38px;
+      }
+      td {
+        word-wrap: break-word; /* All browsers since IE 5.5+ */
+        overflow-wrap: break-word; /* Renamed property in CSS3 draft spec */
+        word-break: break-all;
+      }
+    }
+    .tox-qr {
+      border: 1px solid #DDD;
+      float: right;
+      height: 100%;
+    }
   }
 
 #footer {

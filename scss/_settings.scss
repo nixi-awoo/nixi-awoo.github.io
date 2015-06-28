@@ -1330,7 +1330,7 @@ $small-font-size: 70%;
 // $table-foot-padding: $table-head-padding;
 
 // These control the caption
-// table-caption-bg: transparent;
+// $table-caption-bg: transparent;
 // $table-caption-font-color: $table-head-font-color;
 // $table-caption-font-size: rem-calc(16);
 // $table-caption-font-weight: bold;
@@ -1345,6 +1345,7 @@ $small-font-size: 70%;
 // $table-layout: auto;
 // $table-display: table-cell;
 // $table-margin-bottom: rem-calc(20);
+$table-margin-bottom: 0;
 
 
 // 31. Tabs

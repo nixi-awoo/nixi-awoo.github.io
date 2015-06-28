@@ -6494,7 +6494,7 @@ ul.pagination li {
 table {
   background: #FFFFFF;
   border: solid 1px #DDDDDD;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0;
   table-layout: auto;
 }
 /* line 69, ../bower_components/foundation/scss/foundation/components/_tables.scss */
@@ -9439,95 +9439,77 @@ th.hide-for-touch {
     display: none !important;
   }
 }
-/* line 46, ../scss/app.scss */
-table.contact {
-  width: 100%;
-}
-/* line 49, ../scss/app.scss */
-table.contact tr td:first-child {
-  text-align: center;
-  width: 38px;
-}
-/* line 53, ../scss/app.scss */
-table.contact td {
-  word-wrap: break-word;
-  /* All browsers since IE 5.5+ */
-  overflow-wrap: break-word;
-  /* Renamed property in CSS3 draft spec */
-  word-break: break-all;
-}
-
-/* line 62, ../scss/app.scss */
+/* line 48, ../scss/app.scss */
 .noborder {
   border: none;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 49, ../scss/app.scss */
 .noborder-top {
   border-top: none;
 }
 
-/* line 64, ../scss/app.scss */
+/* line 50, ../scss/app.scss */
 .noborder-right {
   border-right: none;
 }
 
-/* line 65, ../scss/app.scss */
+/* line 51, ../scss/app.scss */
 .noborder-bottom {
   border-bottom: none;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 52, ../scss/app.scss */
 .noborder-left {
   border-left: none;
 }
 
-/* line 68, ../scss/app.scss */
+/* line 54, ../scss/app.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 55, ../scss/app.scss */
 .text-centre {
   text-align: center;
 }
 
-/* line 70, ../scss/app.scss */
+/* line 56, ../scss/app.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 72, ../scss/app.scss */
+/* line 58, ../scss/app.scss */
 .greentext {
   color: #9DCC7D;
 }
 
-/* line 75, ../scss/app.scss */
+/* line 61, ../scss/app.scss */
 a {
   color: #28bd8b;
 }
 
-/* line 78, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 a:hover {
   color: #51daac;
 }
 
-/* line 84, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 img.round {
   -moz-border-radius: 100%;
   border-radius: 100%;
 }
 
-/* line 88, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 img.round-bordered {
   border: 1px solid #323232;
 }
 
-/* line 94, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 #header {
   background: url("../img/header.jpg") repeat;
 }
-/* line 97, ../scss/app.scss */
+/* line 83, ../scss/app.scss */
 #header h1 {
   color: #28bd8b;
   font-family: "Cookie";
@@ -9535,31 +9517,55 @@ img.round-bordered {
   margin: 30px 0;
 }
 
-/* line 105, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 div.contain-to-grid {
   border-bottom: 5px solid #28bd8b;
 }
 
-/* line 112, ../scss/app.scss */
+/* line 96, ../scss/app.scss */
 .content {
   padding: 40px 0 15px 0;
 }
 
-/* line 120, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 #projects .panel {
   background: #323232;
   border: none;
   padding: 15px;
   text-align: center;
 }
-/* line 126, ../scss/app.scss */
+/* line 112, ../scss/app.scss */
 #projects p {
   color: #FFFFFF;
   line-height: 1.0;
   margin-top: 5px;
 }
 
-/* line 136, ../scss/app.scss */
+/* line 120, ../scss/app.scss */
+#contact table.contact {
+  width: 100%;
+}
+/* line 123, ../scss/app.scss */
+#contact table.contact tr td:first-child {
+  text-align: center;
+  width: 38px;
+}
+/* line 127, ../scss/app.scss */
+#contact table.contact td {
+  word-wrap: break-word;
+  /* All browsers since IE 5.5+ */
+  overflow-wrap: break-word;
+  /* Renamed property in CSS3 draft spec */
+  word-break: break-all;
+}
+/* line 133, ../scss/app.scss */
+#contact .tox-qr {
+  border: 1px solid #DDD;
+  float: right;
+  height: 100%;
+}
+
+/* line 140, ../scss/app.scss */
 #footer {
   background: url("../img/header.jpg") repeat;
   border-top: 5px solid #28bd8b;
